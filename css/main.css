@@ -1,0 +1,142 @@
+/*********** BASE STYLES *************/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*********** GRID *************/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 395px;
+    float: left;
+}
+
+/*********** HEADER *************/
+
+
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding: 27px 0 40px 0px;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding: 40px 0px 40px 0;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+
+nav ul li a {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    color:#77a466;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+header .full-width {
+    border-bottom: 3px solid #77a466;
+}
+
+
+
+/*********** HERO *************/
+
+#hero img {
+    border-bottom: 3px solid #77a466;
+}
+
+#hero h1 {
+    color:#77a466;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+#hero p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 30px;
+
+}
+
+/*********** BOTTOM *************/
+
+
+
+#bottom h3 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+#bottom .reviews, #bottom .contact  {
+    padding-left: 30px;
+}
+
+#bottom ul li {
+    color:#77a466;
+    list-style: none;
+    font-size: 16px;
+    padding-bottom: 18px;
+    margin-left: -40px;
+}
+
+
+#bottom .second-col p {
+    font-size: 16px;
+    line-height: 21px;
+    padding-right: 45px;
+    padding-left: 30px;
+
+}
+
+#bottom .third-col p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 180px;
+    padding-left: 30px;
+
+}
+
+#bottom .full-width {
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#bottom .third-width.second-col, 
+#bottom .third-width.first-col {
+    border-right: 1px solid #eeeeee;
+}
+
+/************* FOOTER *****************/
+
