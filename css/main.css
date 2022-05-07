@@ -115,9 +115,7 @@ header .full-width {
 #bottom .second-col p {
     font-size: 16px;
     line-height: 21px;
-    padding-right: 45px;
-    padding-left: 30px;
-
+    padding: 0 45px 10px 30px;
 }
 
 #bottom .third-col p {
@@ -140,3 +138,19 @@ header .full-width {
 
 /************* FOOTER *****************/
 
+footer .full-width {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+footer h2 {
+    font-size: 16px;
+    text-align: center;
+
+}
+
+footer h2 span {
+    font-family: 'Galada', cursive;
+    font-size: 16px;
+    color: #77a466;
+}
