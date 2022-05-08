@@ -138,6 +138,9 @@ header .full-width {
 
 /************* FOOTER *****************/
 
+footer {
+    clear: both;
+}
 footer .full-width {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -146,6 +149,7 @@ footer .full-width {
 footer h2 {
     font-size: 16px;
     text-align: center;
+    text-transform: uppercase;
 
 }
 
@@ -153,4 +157,5 @@ footer h2 span {
     font-family: 'Galada', cursive;
     font-size: 16px;
     color: #77a466;
+    text-transform: none;
 }
